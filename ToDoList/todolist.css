@@ -1,0 +1,101 @@
+body{
+    background-color:#718355;
+    display:flex;
+    align-content:center;
+    justify-content:center;
+    height:100vh;
+    
+    }
+    .container{
+    background-color:#fff;
+    width:100%;
+    max-width:540px;
+    border-radius:30px;
+    height:400px;
+    text-align:center;
+    margin-top:10%;
+    }
+    .heading{
+    display:flex;
+    flex-direction:row;
+    margin-left:10px;
+    
+    }
+    .heading img{
+    padding-top:5%;
+    padding-left:10px;
+    }
+    .inputs{
+    margin-top:40px;
+    width:80%;
+    margin:auto;
+    height:50px;
+    background-color:#E9F5DB;
+    border-radius:30px;
+    display:flex;
+    
+    }
+    input{
+    height:100%;
+    
+    }
+    .text{
+    float:left;
+    width:60%;
+    background:transparent;
+    border:none;
+    color:black;
+    font-size:20px;
+    padding-left:10px;
+    outline:none;
+    
+    }
+    .submit{
+    float:right;
+    width:40%;
+    border-radius:30px;
+    color:#fff;
+    background-color:#97A97C;
+    outline:none;
+    border:none;
+    cursor:pointer;
+    }
+    .lists ul li{
+    text-align:center;
+    list-style:none;
+    padding:10px;
+    position:relative;
+    }
+    ul li::before{
+    content:"";
+    position:absolute;
+    width:20px;
+    height:20px;
+    background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCkSApAvPHF4Y2U8a2LGsQUdzq5oKqTNR5JQ&s);
+    background-size:cover;
+    border:2px solid grey;
+    border-radius:50%;
+    left:0;
+    }
+    ul li.checked{
+    text-decoration:line-through;
+    }
+    ul li.checked::before{
+    
+    background-image:url(https://www.3dprint-uk.co.uk/wp-content/uploads/2017/11/check-tick-icon-14141-1.jpg);
+    }
+    span{
+    font-size:20px;
+    float:right;
+    width:20px;
+    height:20px;
+    border-radius:50%;
+    padding:10px;
+    transition:0.5s;
+    }
+    span:hover{
+    background-color:#E9F5DB;
+    cursor:pointer;
+    
+    }
+    
